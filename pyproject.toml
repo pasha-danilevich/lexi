@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lexi"
+version = "0.1.0"
+description = ""
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.11"
+tortoise-orm = "^0.24.2"
+uvicorn = "^0.34.0"
+pydantic-settings = "^2.8.1"
+aiohttp = "^3.11.13"
+authx = "^1.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^25.1.0"
+
+
+
+
